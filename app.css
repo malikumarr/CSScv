@@ -1,0 +1,109 @@
+/* General Reset and Body Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .cv-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .header .name h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #4CAF50;
+  }
+  
+  .header .name p {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .header .contact-info {
+    text-align: right;
+  }
+  
+  .header .contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  /* Section Styles */
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Skills Section */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Experience Section */
+  .experience {
+    margin-bottom: 20px;
+  }
+  
+  .experience h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #4CAF50;
+  }
+  
+  .experience p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .experience ul {
+    margin-left: 20px;
+  }
+  
+  .experience ul li {
+    font-size: 16px;
+  }
+  
+  /* Education Section */
+  .education h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #4CAF50;
+  }
+  
+  .education p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
